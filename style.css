@@ -1,0 +1,106 @@
+:root {
+  --white: #FFBD2B;
+  --cream: #FFBD2B;
+  --kindablack: #222831;
+}
+
+body {
+  font-family: monospace;
+}
+
+
+header .logo {
+
+  text-align: center;
+  font-family: monospace;
+  font-size:30px;
+}
+
+ul {
+  font-family: monospace;
+}
+
+li {
+  list-style: circle;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.list {
+  list-style: square;
+}
+
+#msg {
+  font-family: monospace;
+  font-size:25px;
+}
+
+.light-theme {
+  color: #000000;
+  background: #FFBD2B;
+  --btnBg: var(--kindablack);
+  --btnFontColor: var(--white);
+}
+
+.dark-theme {
+  color: #FFBD2B;
+  background: #000000;
+  --btnBg: var(--cream);
+  --btnFontColor: var(--kindablack);
+}
+
+.btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  height: 30px;
+  width: 60px;
+  border-radius: 30%;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+
+
+#ladoalado{
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+#ladoalado2{
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+.bt {
+  border:4px solid #EFFFFD;
+  background: #5EC57E;
+  border-radius:4px;
+  display:inline-block;
+  cursor:pointer;
+  font-family:monospace;
+  font-size:18px;
+  padding:6px 10px;
+  text-decoration:none;
+  }
+
+  .bt:active {
+    position:relative;
+    top:2px;}
+
+  .bt2 {
+  border:8px solid #EFFFFD;
+  background: #5EC57E;
+  border-radius:8px;
+  display:inline-block;
+  cursor:pointer;
+  font-family:monospace;
+  font-size:50px;
+  padding:6px 10px;
+  text-decoration:none;
+  }
+  .bt2:active {
+   position:relative;
+   top:2px;}
